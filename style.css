@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0 ;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sayac {
+    height: 500px;
+    background-color: aliceblue;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sayac  #counter {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.sayac  #increase ,
+.sayac  #decrease {
+    font-size: 2rem;
+    background: blueviolet;
+    color: azure;
+    padding: 20px;
+    margin: 5px;
+}
+
+.sayac  #increase:hover ,
+.sayac  #decrease:hover {
+    background: red;
+}
